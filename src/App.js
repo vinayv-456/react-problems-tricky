@@ -1,5 +1,6 @@
 import React from "react";
 import Gift from "./NestedGift/Gift";
+import AsyncHandling from "./JS/AsyncFlowExample_OrderPizza";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
         width: "100vw",
       }}
     >
-      <Gift />
+      {/* <Gift /> */}
+      <AsyncHandling />
     </div>
   );
 }
