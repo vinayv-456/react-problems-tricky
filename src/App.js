@@ -1,6 +1,7 @@
 import React from "react";
 import Gift from "./Components/NestedGift/Gift";
 import AsyncHandling from "./JS/AsyncFlowExample_OrderPizza";
+import TabList from "./Components/Tab/TabList";
 
 function App() {
   return (
@@ -13,9 +14,10 @@ function App() {
         width: "100vw",
       }}
     >
-      TODO: add routing and add index page
+      {/* TODO: add routing and add index page */}
       {/* <Gift /> */}
       {/* <AsyncHandling /> */}
+      <TabList />
     </div>
   );
 }
