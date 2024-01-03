@@ -1,5 +1,5 @@
 import React from "react";
-import Gift from "./NestedGift/Gift";
+import Gift from "./Components/NestedGift/Gift";
 import AsyncHandling from "./JS/AsyncFlowExample_OrderPizza";
 
 function App() {
@@ -13,8 +13,9 @@ function App() {
         width: "100vw",
       }}
     >
+      TODO: add routing and add index page
       {/* <Gift /> */}
-      <AsyncHandling />
+      {/* <AsyncHandling /> */}
     </div>
   );
 }
