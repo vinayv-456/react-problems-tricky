@@ -1,0 +1,3 @@
+export const EVENTS = {
+  ON_COUNTRY_CHANGE: "ON_COUNTRY_CHANGE",
+};

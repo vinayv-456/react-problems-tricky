@@ -3,7 +3,8 @@ import Gift from "./Components/NestedGift/Gift";
 import AsyncHandling from "./JS/AsyncFlowExample_OrderPizza";
 import TabList from "./Components/Tab/TabList";
 import SetState from "./concepts/setState";
-import KeyConcepts from "./concepts/keyConcepts";
+import KeyConcepts from "./concepts/keyProp";
+import EventManagerDemo from "./concepts/eventManager";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/* <AsyncHandling /> */}
       {/* <TabList /> */}
       {/* <SetState /> */}
-      <KeyConcepts />
+      {/* <KeyConcepts /> */}
+      <EventManagerDemo />
     </div>
   );
 }
