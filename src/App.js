@@ -5,6 +5,7 @@ import TabList from "./Components/Tab/TabList";
 import SetState from "./concepts/setState";
 import KeyConcepts from "./concepts/keyProp";
 import EventManagerDemo from "./concepts/eventManager";
+import WithoutEventManagerDemo from "./concepts/eventManager/WithoutEventManager";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       {/* <SetState /> */}
       {/* <KeyConcepts /> */}
       <EventManagerDemo />
+      {/* <WithoutEventManagerDemo /> */}
     </div>
   );
 }
